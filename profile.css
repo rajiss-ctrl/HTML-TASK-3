@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+.name{
+    color:grey;
+    text-align: center;
+}
+.address{
+    text-align: center;
+}
+.email{
+    color: blue;
+}
+.intern{
+    text-decoration: underline;
+    color: darkgoldenrod;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    display: -webkit-flex;
+    display:flex;
+}
+nav{
+    -webkt-flex:1;
+    -ms-flex:1;
+    flex:1;
+    background: #ccc;
+    padding: 20px;
+    border: 2px solid white;
+  border-radius: 12px;
+
+}
+img{
+    border: 2px solid white;
+  border-radius: 80px;
+
+}
+
+
+
+nav p{
+    list-style-type: none;
+    padding: 0;
+}
+article{
+     -webkt-flex:3;
+    -ms-flex:3;
+    flex:3;
+    background-color: #f1f1f1;
+    padding: 10px;
+
+    
+}
+footer {
+  background-color:#f1f1f1 ;
+  text-align: center;
+  padding: 10px;
+     border: 
+}
